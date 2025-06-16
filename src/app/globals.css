@@ -1,26 +1,33 @@
 @import "tailwindcss";
 
-:root {
-  --background: #ffffff;
-  --foreground: #171717;
+@utility bg-hero {
+  background-image: url('../assets/bg-hero.jpg'); /* caminho da sua imagem */
 }
 
-@theme inline {
-  --color-background: var(--background);
-  --color-foreground: var(--foreground);
-  --font-sans: var(--font-geist-sans);
-  --font-mono: var(--font-geist-mono);
+@utility primary-blue {
+  color: #106EB0;
 }
 
-@media (prefers-color-scheme: dark) {
-  :root {
-    --background: #0a0a0a;
-    --foreground: #ededed;
-  }
+@utility primary-orange {
+  color: #EC7000;
 }
 
-body {
-  background: var(--background);
-  color: var(--foreground);
-  font-family: Arial, Helvetica, sans-serif;
+@utility primary-gray {
+  color: #33303E;
+}
+
+@utility second-gray {
+  color: #4E4859;
+}
+
+@utility gray-phone {
+  color: #F4F4F4;
+}
+
+@utility txt-gray {
+  color: #7A7786;
+}
+
+@utility opacity-gray {
+  color: rgba(100, 80, 57, 0.1);
 }
