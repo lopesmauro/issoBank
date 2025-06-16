@@ -8,6 +8,9 @@
   color: #106EB0;
 }
 
+@utility bg-primary-orange {
+  background-color: #EC7000;
+}
 @utility primary-orange {
   color: #EC7000;
 }
