@@ -1,9 +1,5 @@
 @import "tailwindcss";
 
-@utility bg-hero {
-  background-image: url('../assets/bg-hero.jpg'); /* caminho da sua imagem */
-}
-
 @utility primary-blue {
   color: #106EB0;
 }
