@@ -26,8 +26,9 @@ export function Hero() {
                         <span className="text-white text-sm font-bold">Continue explorando</span>
                     </button>
                 </div>
-                <Image src={womanImage} alt="" className="mr-[-41px]"/>
+                <Image src={womanImage} alt="" className="mr-[-41px]" />
             </Container>
         </section>
     )
 }
+    

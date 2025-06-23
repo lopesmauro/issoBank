@@ -1,11 +1,11 @@
 @import "tailwindcss";
 
-@utility primary-blue {
-  color: #106EB0;
-}
-
 @utility bg-primary-blue {
   background-color: #106EB0;
+}
+
+@utility primary-blue {
+  color: #106EB0;
 }
 
 @utility bg-primary-orange {
@@ -15,14 +15,29 @@
   color: #EC7000;
 }
 
+@utility bg-primary-gray {
+  background-color: #33303E;
+}
+
 @utility primary-gray {
   color: #33303E;
 }
 
+@utility border-primary-gray {
+  border-color: #33303E1A;
+}
+
+
+@utility bg-second-gray {
+  background-color: #4E4859;
+}
 @utility second-gray {
   color: #4E4859;
 }
 
+@utility bg-gray-phone {
+  background-color: #F4F4F4;
+}
 @utility gray-phone {
   color: #F4F4F4;
 }
