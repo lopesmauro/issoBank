@@ -1,3 +1,4 @@
+import Footer from "./components/Footer"
 import { Hero } from "./components/Hero"
 import { Services } from "./components/Services"
 
@@ -6,7 +7,7 @@ export default function Home() {
     <div>
       <Hero />
       <Services />
-
+      <Footer />
     </div>
   )
 }
