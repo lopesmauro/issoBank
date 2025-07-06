@@ -33,12 +33,6 @@ export function Services () {
                             </div>
                             <p className="flex-1 txt-gray pr-2">Diversas opções de investimentos, de acordo com o seu perfil de investidor</p>
                         </li>
-                        <li className="flex items-center gap-9 pb-9 border-b-[1px] border-primary-gray">
-                            <div className="w-7 h-7 flex items-center justify-center" >
-                                <Image src={cardIcon} alt="Ícone de cartão"/>
-                            </div>
-                            <p className="flex-1 txt-gray pr-2">Acompanhe a fatura do seu cartão de crédito e faça compras online com seu cartão virtual</p>
-                        </li>
                     </ul>
                 </div>
             </Container>
