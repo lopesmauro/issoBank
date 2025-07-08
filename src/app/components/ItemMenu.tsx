@@ -1,5 +1,5 @@
 import Image from "next/image"
-import arrow from "@/assets/arrow-down.svg";
+import arrow from "@/assets/arrow-down.svg"
 
 type Props = {
     name: string

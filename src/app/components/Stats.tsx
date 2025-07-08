@@ -1,40 +1,47 @@
-"use client"
-
 import { Container } from "./Container"
-import {
-    UsersThree,
-    Bank,
-    Buildings,
-    CheckCircle
-} from "phosphor-react"
+import Image from "next/image"
+import bankIcon from "@/assets/bank.svg"
+import moneyIcon from "@/assets/money.svg"
+import clientsIcon from "@/assets/clients.svg"
+import certifiedIcon from "@/assets/certified.svg"
 
 const Stats = () => {
     const stats = [
         {
             number: "1M+",
             label: "Clientes Ativos",
-            icon: <UsersThree size={40} weight="duotone" className="primary-orange" />
+            icon: <div className="w-12 h-12 flex items-center justify-center">
+                    <Image src={clientsIcon} alt="Ícone de telefone" />
+                </div>
         },
         {
             number: "R$ 10B+",
             label: "Patrimônio Administrado",
-            icon: <Bank size={40} weight="duotone" className="primary-orange" />
+            icon: 
+                <div className="w-12 h-12 flex items-center justify-center">
+                    <Image src={moneyIcon} alt="Ícone de telefone" />
+                </div>
         },
         {
             number: "500+",
             label: "Agências no Brasil",
-            icon: <Buildings size={40} weight="duotone" className="primary-orange" />
+            icon: <div className="w-12 h-12 flex items-center justify-center">
+                    <Image src={bankIcon} alt="Ícone de telefone" />
+                </div>
         },
         {
             number: "15 Anos",
             label: "de Experiência",
-            icon: <CheckCircle size={40} weight="duotone" className="primary-orange" />
+            icon: <div className="w-12 h-12 flex items-center justify-center">
+                    <Image src={certifiedIcon} alt="Ícone de telefone" />
+                </div>
         }
 
     ]
 
     return (
         <section className="pb-16 mt-56 bg-primary-orange">
+
             <Container>
                 <div className="bg-primary-foreground pt-12 flex flex-col w-full -mt-50">
                     <div className="text-center mb-5">
@@ -51,7 +58,7 @@ const Stats = () => {
 
                     </div>
 
-                    <div className="pb-12 grid grid-cols-2 md:grid-cols-4 gap-10">
+                    <div className="pb-12 grid grid-cols-2 md:grid-cols-4 gap-20">
                         {stats.map((stat, index) => (
                             <div key={index} className="text-center flex flex-col items-center">
                                 <div className="mb-3">{stat.icon}</div>

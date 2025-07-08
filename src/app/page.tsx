@@ -1,3 +1,4 @@
+import { CreditCard } from "./components/CreditCard"
 import FAQ from "./components/FAQ"
 import Footer from "./components/Footer"
 import { Hero } from "./components/Hero"
@@ -10,6 +11,7 @@ export default function Home() {
       <Hero />
       <Services />
       <Stats />
+      <CreditCard />
       <FAQ />
       <Footer />
     </div>

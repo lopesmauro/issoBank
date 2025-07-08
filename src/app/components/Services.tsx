@@ -2,7 +2,6 @@ import { Container } from "./Container"
 import phoneIcon from "@/assets/icon-phone.svg"
 import soluctionsIcon from "@/assets/icon-solutions.svg"
 import optionIcon from "@/assets/icon-options.svg"
-import cardIcon from "@/assets/icon-card.svg"
 import phoneImage from "@/assets/phone.png"
 import Image from "next/image"
 
